@@ -1,7 +1,7 @@
 # Answers
 
-Lastname:
-Firstname:
+Lastname: Lee
+Firstname: Hyunjae
 
 ## 2.2
 command:
