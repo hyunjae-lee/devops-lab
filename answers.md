@@ -4,27 +4,29 @@ Lastname: Lee
 Firstname: Hyunjae
 
 ## 2.2
-command:
+command: docker build -t app.
+docker start my_container
 
 ## 2.3
-question:
-command:
+question: It hasn't been listening to the port to get access.
+command:$ docker run -d -p 8080:3000 my_image
 
 ## 2.5
-question:
-command:
+question: Due to no tags
+command: docker tag 518a41981a6a myRegistry.com/myImage
+docker push myRegistry.com/myImage
 
 ## 2.6
-command:
+command: docker rmi $(docker images -a -q)
 
 question:
-command:
+command: docker start my_container
 
-command:
+command: docker run --detach myImage
 
 ## 2.7
 question:
-question:
+question: my_container
 command:
 
 command:
